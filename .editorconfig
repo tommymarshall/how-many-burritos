@@ -1,0 +1,11 @@
+# editorconfig.org
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+[*.{json,js,jsx,html,erb,scss,sass,rb}]
+indent_style = space
+indent_size = 2
